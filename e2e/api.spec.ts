@@ -35,10 +35,5 @@ test.describe("API Testing", () => {
       `${baseURL}/Account/v1/User/${userID}`
     );
     const responseBody = JSON.parse(await response.text());
-    // expect(response.status()).toBe(1200);
   });
 });
-
-
-//TODO - falta implementar reports
-//todo - falta implementar o script para execucao
