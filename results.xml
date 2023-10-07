@@ -1,0 +1,25 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="1.5262229999999999">
+<testsuite name="api.spec.ts" timestamp="2023-10-07T01:51:52.195Z" hostname="chromium" tests="3" failures="0" skipped="0" time="3.291" errors="0">
+<testcase name="API Testing › GET Books" classname="api.spec.ts" time="0.975">
+<system-out>
+<![CDATA[{
+  isbn: [32m'9781449331818'[39m,
+  title: [32m'Learning JavaScript Design Patterns'[39m,
+  subTitle: [32m"A JavaScript and jQuery Developer's Guide"[39m,
+  author: [32m'Addy Osmani'[39m,
+  publish_date: [32m'2020-06-04T09:11:40.000Z'[39m,
+  publisher: [32m"O'Reilly Media"[39m,
+  pages: [33m254[39m,
+  description: [32m"With Learning JavaScript Design Patterns, you'll learn how to write beautiful, structured, and maintainable JavaScript by applying classical and modern design patterns to the language. If you want to keep your code efficient, more manageable, and up-to-da"[39m,
+  website: [32m'http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/'[39m
+}
+Learning JavaScript Design Patterns
+]]>
+</system-out>
+</testcase>
+<testcase name="API Testing › 1-POST new user" classname="api.spec.ts" time="1.337">
+</testcase>
+<testcase name="API Testing › 2-DELETE user" classname="api.spec.ts" time="0.979">
+</testcase>
+</testsuite>
+</testsuites>
